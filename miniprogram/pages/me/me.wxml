@@ -1,0 +1,28 @@
+<!--pages/me/me.wxml-->
+<!-- <my-button round color="#1a3" title="安全登录"></my-button>
+<my-button color="#13a" title="快速注册"></my-button>
+<my-button color="#a13"></my-button>
+<my-button color="#1aa"></my-button>
+
+<my-button title="记得双击" bind:doubletap="handelDoubleTap"></my-button>
+
+<van-button type="default">默认按钮</van-button> -->
+
+<view class="cover">
+  <van-image 
+    bindtap="tapAvatar"
+    round 
+    fit="cover" 
+    width="180rpx" 
+    height="180rpx" 
+    src="{{userInfo.avatarUrl}}" />
+  <view bindtap="tapLogin">{{userInfo.nickName}}</view>
+</view>
+<van-grid>
+    <van-grid-item icon="passed" dot text="立即签到" />
+    <van-grid-item icon="gift-o" badge="99+" text="我的福利" />
+    <van-grid-item icon="clock-o" text="观看历史" />
+    <van-grid-item icon="shopping-cart-o" text="积分商城" />
+</van-grid>
+<van-cell icon="coupon-o" title="我的优惠券" is-link></van-cell>
+<van-cell icon="setting-o" title="设置" is-link></van-cell>

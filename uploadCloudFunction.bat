@@ -1,0 +1,1 @@
+"D:\WEB软件\微信小程序开发者工具\微信web开发者工具\cli.bat" cloud functions deploy --e cloud2204-3g6ab7vf6c95f44b --n quickstartFunctions --r --project "D:\0WEB\Forth\3.xiaochengxu\demo\yuncloud" --report_first --report

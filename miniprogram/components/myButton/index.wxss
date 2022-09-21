@@ -1,0 +1,11 @@
+/* components/myButton/index.wxss */
+.button{
+  display: inline-block;
+  padding: 15rpx 25rpx;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: coral; 
+}
+.round{
+  border-radius: 100px;
+}
